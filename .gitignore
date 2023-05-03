@@ -1,0 +1,68 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Jupyter Notebook files
+*.ipynb_checkpoints
+
+# Node.js and npm files
+node_modules/
+*.log
+
+# Electron files
+dist/
+*.asar
+electron-builder*.yml
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React
+/build
+/node_modules
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+*.swp
+*~
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# LipSyncApp specific files and folders
+uploads/
+local_wsl_projects/
+cuda-repo-wsl-ubuntu-12-1-local_12.1.1-1_amd64.deb
+lip-sync-app/public/build/
+lip-sync-app/backend/submodules/ESRGAN/models/
+

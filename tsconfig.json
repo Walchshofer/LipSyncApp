@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"]
+    },
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/@types/remix-run__react"]
+  },
+  "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx", "remix.config.cjs"],
+  "exclude": ["node_modules"]
+}

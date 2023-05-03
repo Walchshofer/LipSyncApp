@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/_index.jsx"],
+  "sourcesContent": ["import {Link} from '@remix-run/react';\n\nexport default function Index() {\n  return (\n    <main id=\"content\">\n      <h1>Deepfake Videos with Lipsync for multiple faces</h1>\n      <p>Try our early beta version of the app. Upload a video (.mp4) and a audio (.wav) and lipsync the your audio to the video</p>\n      <p id=\"cta\">\n        <Link to=\"/upload\">Upload your mp4 and wav now!</Link>\n      </p>\n    </main>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAKM;AAHS,SAAR,QAAyB;AAC9B,SACE,mDAAC,UAAK,IAAG,WACP;AAAA,uDAAC,QAAG,+DAAJ;AAAA;AAAA;AAAA;AAAA,WAAmD;AAAA,IACnD,mDAAC,OAAE,uIAAH;AAAA;AAAA;AAAA;AAAA,WAA0H;AAAA,IAC1H,mDAAC,OAAE,IAAG,OACJ,6DAAC,QAAK,IAAG,WAAU,4CAAnB;AAAA;AAAA;AAAA;AAAA,WAA+C,KADjD;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OALF;AAAA;AAAA;AAAA;AAAA,SAMA;AAEJ;",
+  "names": []
+}

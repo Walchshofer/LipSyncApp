@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESRGAN Blur Detection and Lip Sync</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">ESRGAN Blur Detection and Lip Sync</h1>
+        <hr>
+        <div class="form-group">
+            <label for="mode">Select Mode:</label>
+            <select class="form-control" id="mode" name="mode">
+                <option value="image">Upscale Image</option>
+                <option value="video">Lip Sync Video</option>
+            </select>
+        </div>
+        <form id="image-form" enctype="multipart/form-data" style="display: none;">
+            <div class="form-group">
+                <label for="image">Select Image:</label>
+                <input type="file" class="form-control-file" id="image" name="image" accept="image/*" required>
+            </div>
+            <button type="button" class="btn btn-primary" id="image-submit">Submit</button>
+        </form>
+        <form id="video-form" enctype="multipart/form-data" style="display: none;">
+            <div class="form-group">
+                <label for="video">Select Video:</label>
+                <input type="file" class="form-control-file" id="video" name="video" accept="video/*" required>
+            </div>
+            <button type="button" class="btn btn-primary" id="video-submit">Submit</button>
+        </form>
+        <hr>
+        <div id="results" style="display: none;">
+            <h2>Results:</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Original:</h3>
+                    <img id="original-image" src="" alt="Original Image" style="max-width: 100%; display: none;">
+                    <video id="original-video" controls style="max-width: 100%; display: none;"></video>
+                </div>
+                <div class="col-md-6">
+                    <h3>Processed:</h3>
+                    <img id="processed-image" src="" alt="Processed Image" style="max-width: 100%; display: none;">
+                    <video id="processed-video" controls style="max-width: 100%; display: none;"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+
+</html>
