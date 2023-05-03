@@ -1,9 +1,10 @@
-[submodule "local_wsl_projects/repos/Wav2Lip"]
-	path = local_wsl_projects/repos/Wav2Lip
-	url = https://github.com/Walchshofer/Wav2Lip.git
-[submodule "local_wsl_projects/repos/BlurDetection2"]
-	path = local_wsl_projects/repos/BlurDetection2
-	url = https://github.com/Walchshofer/BlurDetection2.git
-[submodule "local_wsl_projects/repos/ESRGAN"]
-	path = local_wsl_projects/repos/ESRGAN
-	url = https://github.com/Walchshofer/ESRGAN.git
+[submodule "backend/submodules/Wav2Lip"]
+	path = backend/submodules/Wav2Lip
+	url = https://github.com/Walchshofer/Wav2Lip
+[submodule "backend/submodules/BlurDetection2"]
+	path = backend/submodules/BlurDetection2
+	url = https://github.com/Walchshofer/BlurDetection2
+[submodule "backend/submodules/ESRGAN"]
+	path = backend/submodules/ESRGAN
+	url = https://github.com/Walchshofer/ESRGAN
+
