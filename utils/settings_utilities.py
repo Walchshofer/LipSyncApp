@@ -3,7 +3,7 @@ import sys
 
 class SettingUtilities:
     DEFAULT_LOCAL_PROJECT_PATH = (
-        '/home/patrick_wsl/anaconda3/envs/LipSyncApp-py391/LipSyncApp/local_wsl_projects'
+        '/home/patrick_wsl/AI_Projects/WebApps/LipSyncApp'
     )
 
     def __init__(self, number_of_faces=1):  # Set a default value for number_of_faces
@@ -12,7 +12,7 @@ class SettingUtilities:
         self._initialize_paths()
 
     def _initialize_paths(self):
-        self.lip_sync_app_path = '/home/patrick_wsl/anaconda3/envs/LipSyncApp-py391/LipSyncApp/'
+        self.lip_sync_app_path = '/home/patrick_wsl/AI_Projects/WebApps/LipSyncApp'
         self.sub_modules_path = os.path.join(self.local_project_path, 'SubModules')
         self.work_data_path = os.path.join(self.local_project_path, 'work_data')
         self.input_folder_path = os.path.join(self.work_data_path, 'input_files')
