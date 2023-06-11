@@ -90,3 +90,4 @@ os.system('pip install gdown')
 os.system('pip install pydub')
 os.system('pip install Pillow')
 
+os.system('pip install -r requirements.txt')
